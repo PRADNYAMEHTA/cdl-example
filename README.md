@@ -54,6 +54,16 @@ As smart Contracts become more complicated, the risk of missing some important c
         verifyLinearIDConstraints(tx)
         verifySigningConstraints(tx)
         verifyCommandConstraints(tx)
+                         Device 1
+                       /        \
+             Model Update     Model Update
+             /                  \
+        Device 2            Device 3
+        /       \              /       \
+Model Update  Model Update  Model Update  Model Update
+   /               \           /              \
+Device 4       Device 5    Device 6        Device 7
+
     }
 ```
 
